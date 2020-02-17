@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+table thead tr th , table tbody tr td{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+}
+body{
+    /* background-color: red; */
+    text-align: center;
+    background-color: darkcyan;
+}
+body table{
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    /* background-color: darkgray; */
+    text-shadow: 1.8px 1.8px maroon;
+    font-weight: bold;
+    color: khaki;
+    margin-bottom: 55px;
+}
+#circle{
+    width: 10px;
+    height: 10px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    /* background: red; */
+  }
+#btn1 , #btn2 , #btn3 , #btn4, #btn5, #speak , #reset , #randomStory{
+    border-radius: 28px;
+    background: transparent;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+#speak{
+    margin: 20px;
+    background-color: yellow;
+}
+#reset{
+    margin: 25px;
+    background-color: tomato;
+}
+#randomStory{
+    margin: 30px;
+    background-color: blueviolet;
+}
+tbody{
+    background-color: cyan;
+}
+tbody tr td{
+    border: 2px solid black;
+}
+.WrittenStory{
+    background-color: mintcream;
+    font-size: x-large;
+}
